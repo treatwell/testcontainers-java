@@ -82,7 +82,7 @@ dependencies {
         exclude(group: "net.java.dev.jna")
     }
 
-    shaded ('com.github.docker-java:docker-java:3.1.5') {
+    shaded ('com.github.docker-java:docker-java:3.1.6-SNAPSHOT') {
         exclude(group: 'org.glassfish.jersey.core')
         exclude(group: 'org.glassfish.jersey.connectors')
         exclude(group: 'org.glassfish.jersey.inject')
